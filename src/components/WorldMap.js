@@ -71,7 +71,7 @@ class WorldMap extends Component {
 
           // draw the graticule outline
           context.beginPath();
-          context.lineWidth = 0.7;
+          context.lineWidth = 0.72;
           path(graticule.outline());
           context.stroke();
         }
